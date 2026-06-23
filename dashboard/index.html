@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>COLDCASE Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">COLDCASE</div>
+  <div class="sub">Local Forensic Triage Workbench</div>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <h1>Evidence before action.</h1>
+      <p>Load a generated COLDCASE JSON report to review findings, artifacts, snapshots and timeline data.</p>
+    </div>
+    <div class="score">
+      <span id="score">--</span>
+      <small>case score</small>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Load report</h2>
+    <input type="file" id="file" accept=".json">
+  </section>
+
+  <section class="grid">
+    <div class="card"><h2>Summary</h2><pre id="summary">No report loaded.</pre></div>
+    <div class="card"><h2>Findings</h2><pre id="findings">-</pre></div>
+    <div class="card"><h2>Artifacts</h2><pre id="artifacts">-</pre></div>
+    <div class="card"><h2>Timeline</h2><pre id="timeline">-</pre></div>
+  </section>
+</main>
+
+<footer>xtr4ng3 · COLDCASE</footer>
+<script src="app.js"></script>
+</body>
+</html>

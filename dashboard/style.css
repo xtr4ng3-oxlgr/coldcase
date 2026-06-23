@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background: #05070b;
+  color: #e8f6ff;
+  font-family: Consolas, "Segoe UI", monospace;
+}
+
+header {
+  padding: 28px 36px;
+  border-bottom: 1px solid #202c3f;
+  background: #090d14;
+}
+
+.brand {
+  font-size: 48px;
+  color: #7ef9ff;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+
+.sub {
+  color: #ff304f;
+  margin-top: 6px;
+}
+
+main {
+  padding: 28px 36px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 18px;
+  align-items: stretch;
+  margin-bottom: 18px;
+}
+
+.hero, .card {
+  background: #0b1018;
+  border: 1px solid #202c3f;
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 0 24px rgba(126, 249, 255, .08);
+}
+
+h1, h2 {
+  color: #7ef9ff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ff304f;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.score small {
+  color: #9fb1c7;
+  font-size: 14px;
+}
+
+pre {
+  color: #d6f7ff;
+  white-space: pre-wrap;
+  max-height: 360px;
+  overflow: auto;
+}
+
+input {
+  background: #05070b;
+  color: #e8f6ff;
+  border: 1px solid #202c3f;
+  padding: 12px;
+  width: 100%;
+}
+
+footer {
+  color: #9fb1c7;
+  padding: 20px 36px 32px;
+}

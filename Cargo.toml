@@ -1,0 +1,26 @@
+[package]
+name = "coldcase"
+version = "1.0.0"
+edition = "2021"
+authors = ["xtr4ng3"]
+description = "Local forensic triage workbench for case snapshots, file timelines, hashes, startup review and defensive reports."
+license = "MIT"
+repository = "https://github.com/xtr4ng3/coldcase"
+keywords = ["forensics", "incident-response", "triage", "security", "rust"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4.5", features = ["derive"] }
+rusqlite = { version = "0.31", features = ["bundled"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+walkdir = "2.5"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true

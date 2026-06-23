@@ -1,0 +1,8 @@
+# COLDCASE rules
+# Defensive triage labels.
+
+HIGH_EXTENSIONS = ps1, vbs, js, jse, wsf, hta, bat, cmd, scr, pif, lnk
+ARCHIVE_EXTENSIONS = zip, rar, 7z, iso, img
+EXECUTABLE_EXTENSIONS = exe, dll, sys, msi
+SENSITIVE_PATHS = AppData, Temp, Downloads, Descargas, Public
+HIGH_ENTROPY_THRESHOLD = 7.25

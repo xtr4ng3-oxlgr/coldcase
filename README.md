@@ -1,5 +1,7 @@
 # COLDCASE
 
+<img width="1672" height="941" alt="cc" src="https://github.com/user-attachments/assets/6cf81c01-a80c-4ec1-8bb2-af2d641e14b7" />
+
 **COLDCASE** es una mesa de triage forense local construida en Rust para organizar casos, capturar snapshots, generar líneas temporales, calcular hashes, detectar artefactos sospechosos y producir reportes defensivos.
 
 Creado por **xtr4ng3**.
@@ -359,6 +361,8 @@ COLDCASE v1.0 es una base profesional para triage local.
 
 ## Licencia
 
-MIT.
+<img width="384" height="384" alt="giphy (4)" src="https://github.com/user-attachments/assets/18d64b9e-fba8-493e-8462-f6722e0e64b7" />
 
 **xtr4ng3**
+
+MIT.

@@ -1,5 +1,8 @@
 # COLDCASE
 
+<img width="1672" height="941" alt="coldecase" src="https://github.com/user-attachments/assets/dbd44b06-7712-4f69-8a03-514a814c078b" />
+
+
 **COLDCASE** is a local forensic triage workbench built in Rust for case snapshots, file timelines, hashes, suspicious artifacts, startup review and defensive reports.
 
 Created by **xtr4ng3**.
@@ -188,5 +191,8 @@ It is a local evidence organization and reporting tool.
 ## License
 
 MIT.
+
+<img width="300" height="159" alt="xtr4ng3" src="https://github.com/user-attachments/assets/a5b9a1ab-97b3-407c-aac3-61ea32521f1f" />
+
 
 **xtr4ng3**
